@@ -7,6 +7,9 @@ ControllerMode = bredr
 Restart Bluetooth:
 sudo systemctl restart bluetooth
 
+Vagrant Plugin:
+# vagrant plugin install vagrant-disksize
+
 Install Libvirt in Manjaro:
 LC_ALL=C lscpu | grep Virtualization
 zgrep CONFIG_KVM /proc/config.gz
